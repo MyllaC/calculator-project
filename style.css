@@ -8,19 +8,16 @@
 }
 
 :root {
-  --background-window: linear-gradient(
-    to right,
-    rgb(35, 51, 41),
-    rgb(65, 184, 131)
-  );
+  --hue: 260;
+  --background-window: linear-gradient(45deg, #00dbde 0%, #fc00ff 100%);
 
-  --button-background-color: rgb(17, 17, 17);
-  --button-background-hover-color: rgb(238, 238, 238);
+  --button-background-color: #111111;
+  --button-background-hover-color: #eeeeee;
 
-  --operator-background-color: rgba(65, 184, 131, 0.459);
-  --output-background-color: rgb(34, 34, 34);
-  --previous-operand-color: rgba(255, 255, 255, 0.75);
-  --current-operand-color: rgb(255, 255, 255);
+  --operator-background-color: #00dbde;
+  --output-background-color: #222222;
+  --previous-operand-color: #ffffffbf;
+  --current-operand-color: #ffffff;
 }
 
 /***** GRID CONTAINER *****/
